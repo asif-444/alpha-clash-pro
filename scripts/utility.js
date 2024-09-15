@@ -13,6 +13,11 @@ function setBgColorById(elementId){
     element.classList.add('bg-yellow-400');
 }
 
+function removeBgColorById(elementId){
+    const element = document.getElementById(elementId);
+    element.classList.remove('bg-yellow-400');
+}
+
 function getARandomAlphabet(){
     // get or create an alphabet array
     const alphabetString = 'abcdefghijklmnopqrstuvwxyz';
